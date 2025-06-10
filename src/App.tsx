@@ -66,6 +66,7 @@ function App() {
           className="search-input"
         />
 
+        <button type="submit" className="search-button">Buscar trabajoa</button>
       </form>
 
       {loading && <p>Cargando imágenes...</p>}
