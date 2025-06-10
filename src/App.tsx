@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Buscador de Imágenes Pexels</h1>
+      <h1>Buscador de Imágeness Pexels</h1>
 
       <form onSubmit={handleSubmit} className="search-form">
         <input
@@ -65,7 +65,7 @@ function App() {
           placeholder="Busca imágenes..."
           className="search-input"
         />
-        <button type="submit" className="search-button">Buscar Cosa</button>
+
       </form>
 
       {loading && <p>Cargando imágenes...</p>}
