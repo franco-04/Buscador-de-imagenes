@@ -9,7 +9,7 @@ function App() {
   const [error, setError] = useState<string | null>(null);
   const [inputSearch, setInputSearch] = useState<string>('');
 
-  const PEXELS_API_KEY: string = 'TU_CLAVE_PEXELS';
+  const PEXELS_API_KEY: string = 'Fi2EeO0i2hnYXrh6vaP9lB0Z6AbajkRpvX48TQ429hP8u94RlunJhf4G';
 
   useEffect(() => {
     fetchPhotos(query);
@@ -65,6 +65,7 @@ function App() {
           placeholder="Busca imágenes..."
           className="search-input"
         />
+
         <button type="submit" className="search-button">Buscar trabajoa</button>
       </form>
 
